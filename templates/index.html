@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PB Portfolio</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='img/Artboard.png') }}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/icofont/icofont.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/venobox/venobox.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="{{ url_for('static', filename='img/prashant.jpg') }}" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="/">Bajak Prashant</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.facebook.com/bajak.prashant" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/bajakprashant1798/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/prashant-bajak-2ba6b0142/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="/"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div> <!--d-flex flex-column-->
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Bajak Prashant</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Photographer, Engineer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am pursuing ICT (Information and Communication Technology) Btech Engineering from Ahmedabad University. I am also interested in Photography, Graphic designing, Video editing, UX/UI designing, and web development. I live in Ahmedabad (Gujrat).</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{{ url_for('static', filename='img/Prashant_Bajak.jpg') }}" class="img-fluid">
+          </div>
+
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3> ICT Engineer &amp; Graphic Designer.</h3>
+            <p class="font-italic">
+              I learned computer related stuff like algorithms, languages, DBMS, etc. in Btech engineering  class. I learn designing by taking part in and volunteering at university events.
+            </p>
+
+            <div class="row">
+            
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 1 July 1998</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 9427481798</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Ahmedabad, Gujarat</li>
+                </ul>
+              </div>
+            
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 22</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> btech (ICT)</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Gmail:</strong><font size="-1">prashant.b.btechi16@ahduni.edu.in</font></li>
+                </ul>
+              </div>
+
+            </div> <!--raw-->
+
+            <p>My hobbies are photography and design. Nowadays I am preparing for the GATE examination meanwhile I am also finding an internship related to graphic design so I can utilize my time.</p>
+          
+          </div> <!--col-lg-8 pt-4 pt-lg-0 content-->
+        </div><!--raw-->
+
+      </div><!--container-->
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Internships and Works</h2>
+          <p>I have done some work related to Graphic design, video making from a bunch of photos and Photography for Tech Festival Ingenium of colleges, and also done an internship (freelance) at Ariel Quartz. </p>
+        </div>
+
+          <div class="row">
+            <div data-aos="fade-left">
+              <ul>
+                <li><strong><i class="fas fa-chevron-right"></i> </strong> I have done an internship at Ariel Quartz.</li>
+                <li><strong><i class="fas fa-chevron-right">  </i> Dec’19 -March’19 </strong> Head of Design team and Photography in technical festival of School of Engineering and   Applied Science, Ahmedabad University <strong>– Ingenium’19. </strong>I have used photoshop for designing and after effect for video making using bunch of photos. Using photoshop our team was making posters for promoting technicle events.</li>
+                <li><strong><i class="fas fa-chevron-right"></i> Dec’18 -March’18 </strong> Contributed as head photographer and Video editor in technical festival of School of   Engineering and Applied Science, Ahmedabad University <strong>– Ingenium’18. </strong></li>
+                <li><strong><i class="fas fa-chevron-right"></i> Aug’18 -April’19 </strong> Member of ‘The Food and Nutrition Club’ as a photographer.</li>
+              </ul>
+            </div>
+      </div><!--container-->
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>I am still learning about design. I am learning python these days and simultaneously learning design with the help of YouTube, Google. I am not perfect yet in designing but by doing real-life projects and by making poster I may learn more.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div><!--col-lg-6-->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Adobe Aftereffect <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Adobe Photoshop <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Adobe Illustrator <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div><!--col-lg-6 2nd one-->
+
+        </div><!--row skills-content-->
+
+      </div><!--end of container-->
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Bajak Prashant</h4>
+              <p><em>Pursuing Btech ICT (Information and Communication Technology) at the School of Engineer and Applied Science, Ahmedabad University. I have an interest in design. I have done an online Graphic design course at MyCaptain platform.</em></p>
+              <ul>
+                <li>+91 9427481798</li>
+                <li>prashant.b.btechi16@ahduni.edu.in</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Btech in ICT</h4>
+              <h5>2016 - 2020</h5>
+              <p><em>School of Engineer and Appliedd Science, Ahmedabad University.</em></p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>Graphic Designer</h4>
+              <p><em>work from home, at Ariel Quartz.</em></p>
+              <ul>
+                <li>This company sells wall clocks online and offline.</li>
+                <li>I have made some posters of discounts on the product and magasin page also.</li>
+                <li>This is a sort of Freelancing Job.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Work at collage, Technicle festival</h4>
+              <h5>2017 - 2019</h5>
+              <p><em>Ahmedabad University</em></p>
+              <ul>
+                <li>Every year we have one technical festival at our college and for the marketing of this technical festival Ingenium. We have a design team that makes posters and videos. My work is to make a video from previous year photos for promoting the festival so more students will know about it and take a part in the Tech. festival. I was a member of the core committee and design team from 2017 to 2018.</li>
+                <li>In the same festival, I was head of the design community from 2018 to 2019. Now we are a 6 person team and my job is to give posters design and video in a short time and promote the event. With the help of the other 5 members, I was successfully able to do this work.</li>
+                <li>I was also an official photographer in the TechFest Ingenium and in the concert of local train band and stand up of Kenny Sebastian.</li>
+                <li>I am also a photographer at  "The Food and Nutrition Club" at Ahmedabad University.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Here is some of the work that I have done.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-poster">posters</li>
+              <li data-filter=".filter-photos">photos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_1.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_1.png') }}" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_2.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_2.png') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_3.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_3.png') }}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_4.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_4.png') }}" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_5.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_5.png') }}" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_6.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_6.png') }}" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_7.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_7.png') }}" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_8.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_8.png') }}" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_9.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_9.png') }}" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-photos">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/photo_5.JPG') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/photo_5.JPG') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-photos">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/photo_3.JPG') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/photo_3.JPG') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-photos">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/photo_4.JPG') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/photo_4.JPG') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>'
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_11.PNG') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_11.PNG') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-photos">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/photo_2.JPG') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/photo_2.JPG') }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/poster_10.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/poster_10.png') }}" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-photos">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/portfolio/photo_1.JPG') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="{{ url_for('static', filename='img/portfolio/photo_1.JPG') }}" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>     
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Gmail:</h4>
+                <p>prashant.b.btechi16@ahduni.edu.in</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 9427481798</p>
+              </div>
+            
+
+            <div class="address">
+              <i class="icofont-google-map"></i>
+              <h4>Location:</h4>
+              <p>303-C, Devnandan Desire, near auda lake, motera, ahmedabad, Gujarat - 380005</p>
+            </div>
+
+            </div><!--div class= info-->
+          </div><!--col-lg-5 d-flex align-items-stretch-->
+        </div><!--raw-->
+      </div><!--container-->
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+       <strong>Portfolio</strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/jquery.easing/jquery.easing.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/waypoints/jquery.waypoints.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/counterup/counterup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/venobox/venobox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/owl.carousel/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/typed.js/typed.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>
